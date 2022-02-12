@@ -1,0 +1,13 @@
+Package: RobustSNP
+Type: Package
+Title: Robust SNP association tests under different genetic models, allowing for covariates
+Version: 1.0
+Depends: mvtnorm,car,snpMatrix
+Date: 2010-07-11
+Author: Hon-Cheong So
+Maintainer: Hon-Cheong So<hcso85@gmail.com>
+Description: This function performs robust genetic association tests. SNP associations are tested under additive, dominant and recessive models. Valid p-values are returned for each SNP, taking into account the multiple testing under different models. Binary or quantitative outcomes are allowed. Covariates may also be included. The program can be applied to genome-wide association studies (GWAS). 
+License: GPL(>=2)
+LazyLoad: yes
+References: Hon-Cheong So and Pak C. Sham (2010).Robust association tests under different genetic models, allowing for binary or quantitative traits and covariates. Submitted. 
+Packaged: 2011-01-01 02:03:03 UTC; hcso
